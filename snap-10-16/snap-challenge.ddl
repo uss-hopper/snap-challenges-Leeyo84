@@ -7,7 +7,7 @@ create table task(
 	taskPriority varchar(64) not null,
 	taskDescription varchar(256),
 	primary key(taskId)
-)w
+)
 
 //* my answer (wrong)
 select tweetContent from tweet;
