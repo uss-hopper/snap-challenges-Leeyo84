@@ -8,7 +8,7 @@
 
 <body>
 	<div class="list-and-item">
-		<h4>Total width and height of element 200x150px</h4>
+		<h4>Total width and height of element 210x170px</h4>
 
 		<ul class="my-list">
 			<li class="my-item">1</li>
