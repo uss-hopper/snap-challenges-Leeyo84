@@ -5,6 +5,7 @@ ul {
 }
 
 li {
+	display: inline-flex;
 	background: tomato;
 	line-height: 150px;
 	color: white;
@@ -16,4 +17,8 @@ li {
 	padding: 5px;
 	width: 200px;
 	height: 150px;
+}
+
+div {
+	display: inline-flex;
 }

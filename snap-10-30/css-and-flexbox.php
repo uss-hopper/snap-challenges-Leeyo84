@@ -7,15 +7,17 @@
 </head>
 
 <body>
+	<div>
+		<h4>Total width and height of element 200x150px</h4>
 
-<ul class="my-list">
-	<li class="my-item">1</li>
-	<li class="my-item">2</li>
-	<li class="my-item">3</li>
-	<li class="my-item">4</li>
-	<li class="my-item">5</li>
-	<li class="my-item">6</li>
-</ul>
-
+		<ul class="my-list">
+			<li class="my-item">1</li>
+			<li class="my-item">2</li>
+			<li class="my-item">3</li>
+			<li class="my-item">4</li>
+			<li class="my-item">5</li>
+			<li class="my-item">6</li>
+		</ul>
+	</div>
 </body>
 </html>
