@@ -6,10 +6,14 @@ ul {
 
 li {
 	background: tomato;
-
 	line-height: 150px;
 	color: white;
 	font-weight: bold;
 	font-size: 3em;
 	text-align: center;
+	margin: 10px;
+	border: 0 black;
+	padding: 5px;
+	width: 200px;
+	height: 150px;
 }
