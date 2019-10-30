@@ -7,7 +7,7 @@
 </head>
 
 <body>
-	<div>
+	<div class="list-and-item">
 		<h4>Total width and height of element 200x150px</h4>
 
 		<ul class="my-list">
