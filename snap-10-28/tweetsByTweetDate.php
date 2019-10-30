@@ -7,7 +7,7 @@
  * @throws \InvalidArgumentException if $newTweetDate is not a valid object or string
  * @throws \RangeException if $newTweetDate is a date that does not exist
  */
-public static function getTweetByTweetDate (\PDO $pdo, $tweetId) : ?Tweet {
+public static function getTweetByTweetDate (\PDO $pdo, $tweetDate) : ?TweetDate {
 	try {
 		$tweetDate = newTweetDate ('2ss000-01-01');
 	} catch(InvalidArgumentException | RangeException | Exception | \TypeError $exception) {
@@ -34,4 +34,15 @@ public static function getTweetByTweetDate (\PDO $pdo, $tweetId) : ?Tweet {
 		throw(new \PDOException($exception->getMessage(), 0, $exception));
 	}
 	return($tweet);
+}
+\\/**
+ * Pauls answer
+ */
+public static function get TweetByTweetDate (\PDO $pdo, $tweetDate) :\SplFixedArray{
+
+	// create dates for midnight of the date and midnight of the next day
+	$startDateString = $tweetDate->format('Y-m-d') . '00:00:00';
+	$startDate = new DateTime($startDateString);
+	$endDate = new DateTime($startDateString);
+	$endDate->add(new DateInterval())
 }
