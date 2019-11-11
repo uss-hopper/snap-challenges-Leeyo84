@@ -1,4 +1,4 @@
-$Array = array(
+$Array = array1(
 [{"id":1,
 "name":"Leanne Graham",
 "username":"Bret",
@@ -94,8 +94,14 @@ $Array = array(
 );
 
 
-foreach($Array as $k => $val) {
-	if ($val == "company") {
-		unset(Array[$k]);
-	}
-}
+// foreach($Array as $k => $val) {
+// 	if ($val == "company") {
+// 		unset(Array[$k]);
+// 	}
+// }
+
+var array1 = ['id','name','username','email','address','suite','city','zipcode','geo','lng','phone','website','company','catchPhrase','bs'];
+
+array1.forEach(function(company) {
+	console.log(company);
+});
