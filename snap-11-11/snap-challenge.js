@@ -104,4 +104,5 @@ var array1 = ['id','name','username','email','address','suite','city','zipcode',
 
 array1.forEach(function(company) {
 	console.log(company);
+	var removedItem = array1.splice(pos, 11); // this is how to remove an item
 });
