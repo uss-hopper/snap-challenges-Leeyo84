@@ -1,4 +1,4 @@
-[{
+let people = [{
 	"id": 1,
 	"name": "Leanne Graham",
 	"username": "Bret",
@@ -188,7 +188,7 @@
 		"catchPhrase": "Centralized empowering task-force",
 		"bs": "target end-to-end models"
 	}
-}]
+}];
 
 
 // foreach($Array as $k => $val) {
@@ -197,9 +197,15 @@
 // 	}
 // }
 
-var array1 = ['id', 'name', 'username', 'email', 'address', 'suite', 'city', 'zipcode', 'geo', 'lng', 'phone', 'website', 'company', 'catchPhrase', 'bs'];
+// people = ['id', 'name', 'username', 'email', 'address', 'suite', 'city', 'zipcode', 'geo', 'lng', 'phone', 'website', 'company', 'catchPhrase', 'bs'];
+//
+// people.forEach(function(company) {
+// 	console.log(company);
+// 	var removedItem = array1.splice(pos, 11); // this is how to remove an item
+// });
 
-array1.forEach(function(company) {
-	console.log(company);
-	var removedItem = array1.splice(pos, 11); // this is how to remove an item
+// answer by Paul
+people.forEach(function(person) {
+	delete person.company;
 });
+console.log(people);
